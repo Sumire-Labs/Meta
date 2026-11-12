@@ -25,5 +25,6 @@ export default defineNuxtConfig({
       { code: 'th', language: 'th', name: 'ไทย', file: 'th.json' },
     ],
   },
-  nitro: { prerender: { crawlLinks: true, failOnError: true, routes: ['/', '/ja', '/th'] } },
+  // This site deploys static assets. Workers Builds must not infer a server preset.
+  nitro: { preset: 'static', prerender: { crawlLinks: true, failOnError: true, routes: ['/', '/ja', '/th'] } },
 })

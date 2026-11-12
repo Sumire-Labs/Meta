@@ -10,11 +10,12 @@
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt generate && node scripts/generate-sitemap.mjs",
-    "preview": "wrangler dev --port 4173",
+    "preview": "wrangler dev --config wrangler.jsonc --port 4173",
     "typecheck": "nuxt typecheck",
     "test": "node --test tests/unit/*.test.mjs",
     "test:e2e": "playwright test",
-    "deploy": "wrangler deploy",
+    "deploy": "wrangler deploy --config wrangler.jsonc",
+    "deploy:preview": "wrangler preview --config wrangler.jsonc",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
