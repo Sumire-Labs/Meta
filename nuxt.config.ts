@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   },
   colorMode: { preference: 'system', fallback: 'light', classSuffix: '', storageKey: 'sumire:theme' },
   i18n: {
-    baseUrl: 'https://sumirelaba.com',
+    baseUrl: 'https://sumirelabs.com',
     defaultLocale: 'en',
     strategy: 'prefix_except_default',
     detectBrowserLanguage: false,

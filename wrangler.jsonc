@@ -7,5 +7,5 @@
     "html_handling": "drop-trailing-slash",
     "not_found_handling": "404-page"
   },
-  "routes": [{ "pattern": "sumirelaba.com", "custom_domain": true }]
+  "routes": [{ "pattern": "sumirelabs.com", "custom_domain": true }]
 }

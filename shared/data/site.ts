@@ -1,6 +1,6 @@
 export const site = {
   name: 'Sumire Labs',
-  url: 'https://sumirelaba.com',
+  url: 'https://sumirelabs.com',
   github: 'https://github.com/Sumire-Labs',
   repository: 'https://github.com/Sumire-Labs/Meta',
   discord: 'https://discord.gg/H8eh2hR79e',

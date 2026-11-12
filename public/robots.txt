@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sumirelaba.com/sitemap.xml
+Sitemap: https://sumirelabs.com/sitemap.xml
