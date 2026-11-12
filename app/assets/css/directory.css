@@ -1,0 +1,31 @@
+.directory-page { padding-block: 64px 96px; min-height: 75vh; }
+.directory-heading { margin-bottom: 48px; }
+.directory-heading h1 { font-size: 40px; letter-spacing: -.025em; margin-top: 12px; }
+.directory-heading>p:last-child { margin-top: 20px; font-size: 18px; color: var(--secondary); }
+.org-chart { border: 1px solid var(--border); background: var(--surface); border-radius: 12px; padding: 32px; }
+.org-root { display: flex; align-items: center; justify-content: center; gap: 12px; font-size: 24px; font-weight: 500; }
+.org-root img { border-radius: 8px; }
+.org-tier { position: relative; padding-top: 32px; margin-top: 24px; }
+.org-tier::before { content: ''; position: absolute; top: -8px; left: 50%; height: 28px; width: 1px; background: var(--border); }
+.org-tier h2 { color: var(--secondary); font-size: 13px; text-align: center; margin-bottom: 16px; }
+.org-people { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 16px; }
+.org-people .org-person { display: flex; align-items: center; justify-content: center; gap: 16px; padding: 24px; min-width: 248px; min-height: 104px; text-align: center; border: 1px solid var(--border); border-radius: 12px; background: var(--subtle); font-size: 24px; }
+.org-people img { width: 56px; height: 56px; border-radius: 8px; object-fit: cover; flex-shrink: 0; }
+.org-person-initial { display: grid; place-items: center; width: 56px; height: 56px; border-radius: 8px; background: var(--accent-soft); color: var(--on-accent-soft); font-size: 24px; flex-shrink: 0; }
+.org-people a:hover { color: var(--accent); border-color: var(--accent); }
+
+@media (max-width: 640px) {
+  .directory-page { padding-block: 40px 64px; }
+  .directory-heading { margin-bottom: 32px; }
+  .directory-heading h1 { font-size: 32px; }
+  .directory-heading>p:last-child { font-size: 16px; }
+  .org-chart { padding: 24px 16px; }
+  .org-root { font-size: 20px; }
+  .org-people { gap: 12px; }
+  .org-people li { flex: 1 1 calc(50% - 6px); min-width: 0; max-width: calc(50% - 6px); }
+  .org-people .org-person { flex-direction: column; gap: 12px; min-width: 0; min-height: 124px; padding: 16px 8px; font-size: 18px; }
+  .org-people img, .org-person-initial { width: 48px; height: 48px; }
+
+}
+
+.org-people li { scroll-margin-top: 140px; }

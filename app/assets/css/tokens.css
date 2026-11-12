@@ -1,0 +1,41 @@
+/* Material 3-inspired blue tonal palette (HCT seed #167DC5).
+   Surface/container and on-color roles are kept separate for readable contrast. */
+:root {
+  color-scheme: light;
+  --bg: #F8F9FF;
+  --surface: #ECEEF4;
+  --raised: #E0E2E8;
+  --subtle: #F2F3F9;
+  --text: #191C20;
+  --secondary: #42474E;
+  --accent: #32628D;
+  --accent-hover: #144A74;
+  --accent-soft: #CFE4FF;
+  --on-accent-soft: #001D34;
+  --on-accent: #FFFFFF;
+  --secondary-container: #D6E4F7;
+  --on-secondary-container: #0F1D2A;
+  --border: #C2C7CF;
+  --outline: #73777F;
+  --header-bg: #F8F9FFE8;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+}
+.dark {
+  color-scheme: dark;
+  --bg: #101418;
+  --surface: #1D2024;
+  --raised: #272A2F;
+  --subtle: #191C20;
+  --text: #E0E2E8;
+  --secondary: #C2C7CF;
+  --accent: #9DCAFC;
+  --accent-hover: #CFE4FF;
+  --accent-soft: #144A74;
+  --on-accent-soft: #CFE4FF;
+  --on-accent: #003355;
+  --secondary-container: #3B4857;
+  --on-secondary-container: #D6E4F7;
+  --border: #42474E;
+  --outline: #8C9199;
+  --header-bg: #101418E8;
+}

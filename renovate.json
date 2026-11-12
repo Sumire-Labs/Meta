@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", "group:all"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["* 0-5 * * 1"],
+  "updateNotScheduled": false,
+  "rangeStrategy": "bump",
+  "separateMajorMinor": false,
+  "separateMinorPatch": false,
+  "separateMultipleMajor": false,
+  "prConcurrentLimit": 1,
+  "automerge": false,
+  "lockFileMaintenance": { "enabled": false },
+  "packageRules": [
+    { "matchPackageNames": ["*"], "groupName": "weekly dependencies", "groupSlug": "weekly-dependencies" },
+    { "matchPackageNames": ["node"], "allowedVersions": ">=26 <27" },
+    { "description": "vue-tsc 3.3 requires the TypeScript JS compiler API; revisit when it supports TS 7", "matchPackageNames": ["typescript"], "allowedVersions": "<7" }
+  ]
+}

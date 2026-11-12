@@ -1,0 +1,9 @@
+packages:
+  - .
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+  '@parcel/watcher': true
+minimumReleaseAgeExclude:
+  - '@lucide/vue@1.72.0'

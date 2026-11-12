@@ -1,0 +1,65 @@
+{
+  "note": "Unmodified project images retain their upstream terms. Repository licenses are preserved beside this file. Platform brand icons are from Simple Icons (CC0-1.0); trademarks belong to their respective owners.",
+  "platformIcons": {
+    "curseforge": "https://github.com/simple-icons/simple-icons/blob/develop/icons/curseforge.svg",
+    "modrinth": "https://github.com/simple-icons/simple-icons/blob/develop/icons/modrinth.svg",
+    "apachemaven": "https://github.com/simple-icons/simple-icons/blob/develop/icons/apachemaven.svg"
+  },
+  "assets": [
+    {
+      "id": "pulsar",
+      "repo": "Pulsar",
+      "path": "src/main/resources/assets/icon.png",
+      "sha": "3f5afaa557c70c9e68ae53f8250656ba847e5d7a",
+      "url": "https://raw.githubusercontent.com/Sumire-Labs/Pulsar/3f5afaa557c70c9e68ae53f8250656ba847e5d7a/src/main/resources/assets/icon.png",
+      "localPath": "/images/projects/pulsar.png",
+      "licenseFile": "/licenses/projects/pulsar.txt",
+      "source": "https://github.com/Sumire-Labs/Pulsar/blob/3f5afaa557c70c9e68ae53f8250656ba847e5d7a/src/main/resources/assets/icon.png",
+      "modified": false
+    },
+    {
+      "id": "celeritas-extra",
+      "repo": "Celeritas-Extra",
+      "path": "src/main/resources/assets/celeritasextra/icon.png",
+      "sha": "e3a77fa37041aa82d44dca1b58af043fda4f5b53",
+      "url": "https://raw.githubusercontent.com/Sumire-Labs/Celeritas-Extra/e3a77fa37041aa82d44dca1b58af043fda4f5b53/src/main/resources/assets/celeritasextra/icon.png",
+      "localPath": "/images/projects/celeritas-extra.png",
+      "licenseFile": "/licenses/projects/celeritas-extra.txt",
+      "source": "https://github.com/Sumire-Labs/Celeritas-Extra/blob/e3a77fa37041aa82d44dca1b58af043fda4f5b53/src/main/resources/assets/celeritasextra/icon.png",
+      "modified": false
+    },
+    {
+      "id": "leaf-culling",
+      "repo": "SodiumLeafCulling-Unofficial",
+      "path": "icon.png",
+      "sha": "5e06d0fc98a4d5c30ff5f0ed064a534a58faf628",
+      "url": "https://raw.githubusercontent.com/Sumire-Labs/SodiumLeafCulling-Unofficial/5e06d0fc98a4d5c30ff5f0ed064a534a58faf628/icon.png",
+      "localPath": "/images/projects/leaf-culling.png",
+      "licenseFile": "/licenses/projects/leaf-culling.txt",
+      "source": "https://github.com/Sumire-Labs/SodiumLeafCulling-Unofficial/blob/5e06d0fc98a4d5c30ff5f0ed064a534a58faf628/icon.png",
+      "modified": false
+    },
+    {
+      "id": "sumirevox",
+      "repo": "SumireVox",
+      "path": "apps/web/public/apple-touch-icon.png",
+      "sha": "c4cf0a2174ef15b260a001addbdc84fdc880b06f",
+      "url": "https://raw.githubusercontent.com/Sumire-Labs/SumireVox/c4cf0a2174ef15b260a001addbdc84fdc880b06f/apps/web/public/apple-touch-icon.png",
+      "localPath": "/images/projects/sumirevox.png",
+      "licenseFile": "/licenses/projects/sumirevox.txt",
+      "source": "https://github.com/Sumire-Labs/SumireVox/blob/c4cf0a2174ef15b260a001addbdc84fdc880b06f/apps/web/public/apple-touch-icon.png",
+      "modified": false
+    },
+    {
+      "id": "create-astralization",
+      "repo": "Create-Astralization",
+      "path": "icon.png",
+      "sha": "3a7b730919d3f4c99eeaef487e7917e13d1907b0",
+      "url": "https://raw.githubusercontent.com/Sumire-Labs/Create-Astralization/3a7b730919d3f4c99eeaef487e7917e13d1907b0/icon.png",
+      "localPath": "/images/projects/create-astralization.png",
+      "licenseFile": "/licenses/projects/create-astralization.txt",
+      "source": "https://github.com/Sumire-Labs/Create-Astralization/blob/3a7b730919d3f4c99eeaef487e7917e13d1907b0/icon.png",
+      "modified": false
+    }
+  ]
+}
