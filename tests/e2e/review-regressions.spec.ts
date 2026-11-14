@@ -4,6 +4,16 @@ test.beforeEach(async ({ page }) => {
   await page.addInitScript(() => sessionStorage.setItem('sumire:intro', '1'))
 })
 
+test('Escape returns focus from settings to its trigger', async ({ page }) => {
+  await page.goto('/')
+  const trigger = page.getByRole('button', { name: 'Settings', exact: true })
+  await trigger.click()
+  await page.locator('.settings-menu .setting-row').first().focus()
+  await page.keyboard.press('Escape')
+  await expect(page.locator('.settings-menu')).toHaveCount(0)
+  await expect(trigger).toBeFocused()
+})
+
 test('all-language search finds a language that has not been visited', async ({ page }) => {
   await page.goto('/ja')
   await page.locator('.search-trigger').click()
